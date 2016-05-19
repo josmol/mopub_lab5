@@ -1,12 +1,6 @@
-html, body
-{
-	margin: 0px;
-	padding: 0px;
-}
-
-.my-page
-{
-	display: none;
+body, html{
+	padding:0px;
+	margin:0px;
 }
 
 .header{
@@ -60,5 +54,7 @@ h1{
 .default{
 	background-color: #1954a6;
 }
+
+
 
 
