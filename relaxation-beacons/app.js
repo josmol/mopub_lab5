@@ -7,19 +7,19 @@ var app = {}
 app.beaconRegions =
 [
 	{
-		id: 'page-feet',
+		id: 'page-turkos',
 		uuid:'B9407F30-F5F8-466E-AFF9-25556B57FE6D',
 		major: 3560,
 		minor: 36810
 	},
 	{
-		id: 'page-shoulders',
+		id: 'page-magenta',
 		uuid:'B9407F30-F5F8-466E-AFF9-25556B57FE6D',
 		major: 22296,
 		minor: 48975
 	},
 	{
-		id: 'page-face',
+		id: 'page-grey',
 		uuid:'B9407F30-F5F8-466E-AFF9-25556B57FE6D',
 		major: 55605,
 		minor: 58868

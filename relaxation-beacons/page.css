@@ -9,17 +9,17 @@ html, body
 	display: none;
 }
 
-.header{
+.my-header
+{
 	height: 60px;
 	color:white;
 	padding-top:30px;
 }
 
-.footer{
-	height:120px;
-	width:100%;
-    position: fixed;
-    bottom: 0;
+.my-header-image
+{
+	width: 100%;
+	height: auto;
 }
 
 .my-icon-back
@@ -31,19 +31,30 @@ html, body
 	height: auto;
 }
 
-
-p{
-	font-family: Helvetica;
-	text-align: center;
+.my-content
+{
+	margin: 10px 20px;
+	padding: 0;
+	font-family: sans-serif;
 }
 
-h1{
+.my-content h1
+{
+	font-size: 150%;
 	margin:0px;
 	padding:0px;
 	text-align: center;
 	font-family: Helvetica;
 	text-transform: uppercase;
 }
+
+.my-content p
+{
+	font-size: 120%;
+	font-family: Helvetica;
+	text-align: center;
+}
+
 
 .turkos{
 	background-color: #80FFEC;
@@ -57,8 +68,13 @@ h1{
 	background-color:#C0C0C0;
 }
 
-.default{
-	background-color: #1954a6;
+.page-default{
+		background-color: #1954a6;
 }
 
-
+.footer{
+	height:120px;
+	width:100%;
+    position: fixed;
+    bottom: 0;
+}
